@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">EasyMusic</string>
+
+    <!--Title Local Songs-->
+    <string name="title_local">Local Songs</string>
+
+    <!--More Info-->
+    <string name="more_info">&gt;</string>
+
+    <!--Title Recommend-->
+    <string name="title_recommend">Recommend</string>
+
+    <!--Title Radio-->
+    <string name="title_radio">Radio</string>
+
+    <!--Local Song Subtitle-->
+    <string name="subtitle_local">One Punch Man</string>
+
+    <!--Local Song Subtitle Other-->
+    <string name="subtitle_local_other">Music Other</string>
+
+    <!--[Last Song Activity] Status Bar-->
+    <string name="last_song_activity_status_bar">Last Song</string>
+
+    <!--[Last Song Activity] Song List Subheading -->
+    <string name="last_song_activity_song_list_subheading">Show Name of Song Here</string>
+
+    <!--[Last Song Activity] Song Playing Now Song Name -->
+    <string name="last_song_activity_song_playing_now_song_name">Yellow</string>
+
+    <!--[Last Song Activity] Song Playing Now Song Name-->
+    <string name="last_song_activity_song_playing_now_singer">Coldplay</string>
+
+    <!--[Song Playing Now Activity] Status Bar-->
+    <string name="song_playing_now_activity_status_bar">Playing</string>
+
+    <!--[Local Songs Activity]-->
+    <string name="local_songs_activity_default_song_name">Song Name</string>
+
+    <string name="local_songs_activity_default_singer">Singer</string>
+
+    <string name="title_1">Library</string>
+
+    <string name="title_2">Recently Added</string>
+
+    <string name="albums">Albums</string>
+
+    <string name="artists">Artists</string>
+
+    <string name="download_music">Download Music</string>
+
+    <string name="playlist">Playlist</string>
+
+    <string name="songs">Songs</string>
+
+    <string name="playing_music">PLaying Music</string>
+</resources>

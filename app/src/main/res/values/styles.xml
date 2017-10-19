@@ -1,0 +1,407 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--main page title-->
+    <style name="main_page_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">39sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textColor">@color/title</item>
+    </style>
+
+    <!--playlist tab-->
+    <style name="playlist">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/playlist_color</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--artists tab-->
+    <style name="artists">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/artists_color</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--albums tab-->
+    <style name="albums">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/albums_color</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--songs tab-->
+    <style name="songs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/songs_color</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--download music tab-->
+    <style name="download_music">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/download_music_color</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--Index Page Linear View-->
+    <style name="index_page_linear_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/colorBackground</item>
+    </style>
+
+    <!--Image Last Song Cover-->
+    <style name="last_song_cover">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginTop">@dimen/margin_vertical_last_song</item>
+        <item name="android:layout_marginBottom">@dimen/margin_vertical_last_song</item>
+        <item name="android:elevation">@dimen/activity_elevation</item>
+        <item name="android:background">@drawable/myrect</item>
+    </style>
+
+    <!--Title-->
+    <style name="Title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/margin_vertical_last_song</item>
+        <item name="android:paddingTop">@dimen/margin_vertical_last_song</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--More Info-->
+    <style name="More_Info">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingBottom">@dimen/margin_vertical_last_song</item>
+        <item name="android:paddingTop">@dimen/margin_vertical_last_song</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!--Catalog Horizontal Scroll View-->
+    <style name="catalog_horizontal_scroll_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <!--Catalog Horizontal Scroll Child Linear View-->
+    <style name="catalog_horizontal_scroll_child_linear_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/horizontal_scroll_view_height</item>
+    </style>
+
+    <!--Catalog Content Linear View-->
+    <style name="catalog_content_linear_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:elevation">@dimen/activity_elevation</item>
+        <item name="android:background">@drawable/myrect</item>
+    </style>
+
+    <!--Content Front Cover Image-->
+    <style name="content_front_cover">
+        <item name="android:layout_width">@dimen/cover_width</item>
+        <item name="android:layout_height">@dimen/cover_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:elevation">@dimen/activity_elevation</item>
+        <item name="android:background">@color/colorCatalog</item>
+    </style>
+
+    <!--Content Subtitle -->
+    <style name="content_subtitle">
+        <item name="android:layout_width">@dimen/cover_width</item>
+        <item name="android:layout_height">@dimen/subtitle_height</item>
+        <item name="android:textSize">@dimen/subtitle_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:elevation">@dimen/activity_elevation</item>
+        <item name="android:background">@color/colorCatalogSubtitle</item>
+    </style>
+
+    <!--Last Song Acvitivy Linear Layout-->
+    <style name="last_song_activity_linear_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:elevation">@dimen/last_song_activity_background_elevation</item>
+        <!--<item name="android:background">@drawable/background</item>-->
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <!--<item name="android:layout_marginBottom">@dimen/last_song_activity_vertical_buttom_margin</item>-->
+    </style>
+
+    <!--Last Song Cover and Play Button-->
+    <style name="last_song_activity_last_song_cover_and_play">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/last_song_activity_cover_height</item>
+        <!--<item name="android:layout_height">wrap_content</item>-->
+        <item name="android:layout_marginTop">@dimen/margin_vertical_last_song</item>
+        <item name="android:layout_marginBottom">@dimen/margin_vertical_last_song</item>
+        <item name="android:elevation">@dimen/last_song_activity_last_song_cover_elevation</item>
+        <item name="android:background">@drawable/myrect</item>
+    </style>
+
+    <!--Last Song Cover-->
+    <style name="last_song_activity_last_song_cover">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:elevation">@dimen/last_song_activity_last_song_cover_elevation</item>
+        <item name="android:background">@drawable/myrect</item>
+        <item name="android:scaleType">centerCrop</item>
+        <!--<item name="android:adjustViewBounds">true</item>-->
+    </style>
+
+    <!--Last Song Play Button-->
+    <style name="last_song_activity_play_button">
+        <item name="android:layout_width">@dimen/last_song_activity_icon_width</item>
+        <item name="android:layout_height">@dimen/last_song_activity_icon_height</item>
+        <item name="android:layout_margin">@dimen/last_song_activity_play_margin</item>
+        <item name="android:elevation">@dimen/last_song_activity_red_play_button_elevation</item>
+        <item name="android:background">@drawable/cycle_background</item>
+    </style>
+
+    <!--Last Song Acvtivity Song List-->
+    <style name="last_song_activity_song_list">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/last_song_activity_icon_height</item>
+        <!--<item name="android:gravity">center_vertical</item>-->
+        <item name="android:elevation">@dimen/last_song_activity_song_list_elevation</item>
+        <item name="android:background">@drawable/myrect</item>
+        <item name="android:layout_marginBottom">@dimen/last_song_activity_vertical_margin</item>
+    </style>
+
+    <!--Last Song Activity Song List Music Icon-->
+    <style name="last_song_activity_song_list_music_icon">
+        <item name="android:layout_width">@dimen/last_song_activity_icon_width</item>
+        <item name="android:layout_height">@dimen/last_song_activity_icon_height</item>
+        <item name="android:background">@color/colorCatalog</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">@dimen/last_song_activity_icon_padding</item>
+
+    </style>
+
+    <!--Last Song Acvtivity Song List Subheading-->
+    <style name="last_song_activity_song_list_subheading">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/last_song_activity_icon_height</item>
+        <item name="android:textSize">@dimen/last_song_activity_song_list_subheading_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/colorCatalog</item>
+    </style>
+
+    <!--Song Playing Now Relative Layout-->
+    <style name="song_playing_now_bottom_bar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/song_playing_now_bar_height</item>
+        <item name="android:background">@color/colorSongPlayingNowBar</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_margin">@dimen/song_playing_now_bar_margin</item>
+        <item name="android:elevation">@dimen/song_playing_now_bar_elevation</item>
+    </style>
+
+    <!--Song Playing Now Music Icon -->
+    <style name="song_playing_now_music_icon">
+        <item name="android:layout_width">@dimen/song_playing_now_song_cover_width</item>
+        <item name="android:layout_height">@dimen/song_playing_now_song_cover_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:padding">@dimen/song_playing_now_song_cover_padding</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <!--<Song Playing Now Linear View-->
+    <style name="song_playing_now_linear_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/song_playing_now_bar_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">@dimen/song_playing_now_song_cover_width</item>
+        <item name="android:layout_marginRight">@dimen/song_playing_now_pause_icon_width</item>
+    </style>
+
+    <!--Song Playing Now Song Name -->
+    <style name="song_playing_now_song_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/song_playing_now_song_name_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+        <!--<item name="android:gravity">center_vertical</item>-->
+    </style>
+
+    <!--Song Playing Now Singer -->
+    <style name="song_playing_now_singer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/song_playing_now_singer_text_size</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <!--<item name="android:gravity">center_vertical</item>-->
+    </style>
+
+    <!--Song Playing Now Pause Icon -->
+    <style name="song_playing_now_pause_icon">
+        <item name="android:layout_width">@dimen/song_playing_now_pause_icon_width</item>
+        <item name="android:layout_height">@dimen/song_playing_now_pause_icon_height</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:padding">@dimen/song_playing_now_pause_icon_padding</item>
+    </style>
+
+    <!--[Song Playing Now Activity] -->
+    <!--Song Info Bar-->
+    <style name="song_playing_now_activity_song_info_bar">
+        <item name="android:layout_height">@dimen/song_playing_now_activity_song_info_bar_height</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <!--Song Info Bar Return Button-->
+    <style name="song_playing_activity_return_button">
+        <item name="android:layout_width">@dimen/song_playing_now_activity_song_info_bar_width</item>
+        <item name="android:layout_height">@dimen/song_playing_now_activity_song_info_bar_height</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:padding">@dimen/song_playing_now_activity_song_info_return_button</item>
+    </style>
+    <!--Song Info Bar Song Name-->
+    <style name="song_playing_now_activity_song_name">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-blacks</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorSongPlayingNowPrimary</item>
+    </style>
+    <!--Song Info Bar Singer-->
+    <style name="song_playing_now_activity_singer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/colorSongPlayingNowPrimary</item>
+    </style>
+    <!--Song Info Song Cover-->
+    <style name="song_playing_activity_song_cover">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/song_playing_now_activity_song_cover_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/song_playing_now_activity_song_cover_horizontal_margin</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+    <!--SeekBar-->
+    <style name="song_playing_activity_seekbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/song_playing_now_activity_seekbar_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/song_playing_now_activity_seekbar_horizontal_margin</item>
+    </style>
+    <!--Song Time-->
+    <style name="song_playing_now_activity_progress_song_time">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/colorSongPlayingNowPrimary</item>
+    </style>
+    <!--Bottom Bar Forward Backward Button-->
+    <style name="song_playing_now_activity_bottom_bar_icon_1">
+        <item name="android:layout_width">@dimen/song_playing_now_activity_bottom_bar_width</item>
+        <item name="android:layout_height">@dimen/song_playing_now_activity_bottom_bar_height</item>
+        <item name="android:padding">@dimen/song_playing_now_activity_bottom_bar_icon1_padding</item>
+    </style>
+    <!--Bottom Bar Play Pause Button-->
+    <style name="song_playing_now_activity_bottom_bar_icon_2">
+        <item name="android:layout_width">@dimen/song_playing_now_activity_bottom_bar_width</item>
+        <item name="android:layout_height">@dimen/song_playing_now_activity_bottom_bar_height</item>
+        <item name="android:padding">@dimen/song_playing_now_activity_bottom_bar_icon2_padding</item>
+    </style>
+    <!--[Local Songs Activity]-->
+    <!--Song Row-->
+    <style name="local_songs_activity_song_list_song_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/local_songs_activity_song_list_height</item>
+        <item name="android:paddingLeft">@dimen/local_songs_activity_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/local_songs_activity_padding_horizontal</item>
+        <item name="android:elevation">@dimen/local_songs_activity_song_list_elevation</item>
+        <item name="android:background">@drawable/song_list_background</item>
+        <item name="android:layout_marginLeft">@dimen/local_songs_activity_song_list_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/local_songs_activity_song_list_margin_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/local_songs_activity_song_list_margin_vertical</item>
+        <item name="android:layout_marginBottom">@dimen/local_songs_activity_song_list_margin_vertical</item>
+    </style>
+    <!--Song Name-->
+    <style name="local_songs_activity_song_list_song_name">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/local_songs_activity_song_list_song_name</item>
+        <item name="android:text">@string/local_songs_activity_default_song_name</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <!--Singer-->
+    <style name="local_songs_activity_song_list_singer">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/local_songs_activity_padding_horizontal</item>
+        <item name="android:textSize">@dimen/local_songs_activity_song_list_singer</item>
+        <item name="android:text">@string/local_songs_activity_default_singer</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

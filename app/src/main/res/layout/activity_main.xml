@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.project4.MainActivity">
+
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp">
+        <!-- this view is the main view for the main page-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!--Title for first section-->
+            <TextView
+                style="@style/main_page_title"
+                android:text="@string/title_1"/>
+            <!--first section elements-->
+            <TextView
+                android:id="@+id/playlist"
+                style="@style/playlist"
+                android:text="Playlist"/>
+
+            <TextView
+                android:id="@+id/artists"
+                style="@style/artists"
+                android:text="Artists"/>
+
+            <TextView
+                android:id="@+id/albums"
+                style="@style/albums"
+                android:text="Albums"/>
+
+            <TextView
+                android:id="@+id/songs"
+                style="@style/songs"
+                android:text="Songs"/>
+
+            <TextView
+                android:id="@+id/downloaded_music"
+                style="@style/download_music"
+                android:text="Downloaded Music"/>
+
+            <!--title for the second section-->
+            <TextView
+                style="@style/main_page_title"
+                android:text="@string/title_2" />
+            <!--first row of Albums recently added-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <!--single album element-->
+                <LinearLayout style="@style/catalog_content_linear_view">
+                    <!--cover of the album-->
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_1"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+                    <!--title of the album-->
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_2"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_3"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_4"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_5"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_6"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--second row of Albums recently added-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_7"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_8"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_9"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_10"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_11"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_12"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--third row of Albums recently added-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_13"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_14"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_15"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_16"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_17"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_18"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--forth row of Albums recently added-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_19"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_20"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_21"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_22"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_23"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_24"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+            </LinearLayout>
+            <!--fifth row of Albums recently added-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_25"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_26"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_27"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_28"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+                <LinearLayout style="@style/catalog_content_linear_view">
+
+                    <ImageView
+                        android:id="@+id/main_activity_local_song_cover_29"
+                        style="@style/content_front_cover"
+                        android:src="@drawable/music2_icon" />
+
+                    <TextView
+                        android:id="@+id/main_activity_local_song_name_30"
+                        style="@style/content_subtitle"
+                        android:text="@string/subtitle_local_other" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!--Song Playing Now Bottom Bar-->
+    <RelativeLayout
+        android:id="@+id/main_activity_song_playing_now"
+        style="@style/song_playing_now_bottom_bar">
+        <!--song cover-->
+        <ImageView
+            android:id="@+id/main_activity_song_playing_now_muisc_icon"
+            style="@style/song_playing_now_music_icon"
+            android:src="@drawable/music_icon" />
+        <!--android:layout_toRightOf="@id/last_song_activity_song_playing_now_muisc_icon"-->
+        <!--title detail of the song-->
+        <LinearLayout style="@style/song_playing_now_linear_view">
+
+            <TextView
+                android:id="@+id/main_activity_song_playing_now_song_name"
+                style="@style/song_playing_now_song_name"
+                android:text="@string/last_song_activity_song_playing_now_song_name" />
+
+            <TextView
+                android:id="@+id/main_activity_song_playing_now_singer"
+                style="@style/song_playing_now_singer"
+                android:text="@string/last_song_activity_song_playing_now_singer" />
+        </LinearLayout>
+        <!--image of the play or pause-->
+        <ImageView
+            android:id="@+id/main_activity_song_playing_now_pause_icon"
+            style="@style/song_playing_now_pause_icon"
+            android:src="@drawable/pause_icon" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

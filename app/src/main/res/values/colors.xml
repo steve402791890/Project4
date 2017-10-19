@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorShadow">#616161</color>
+    <color name="colorBackground">#FAFAFA</color>
+    <color name="colorCatalog">#E0E0E0</color>
+    <color name="colorCatalogSubtitle">#FAFAFA</color>
+
+    <!--title-->
+    <color name="title">#000000</color>
+
+    <!--tabs-->
+    <color name="playlist_color">#eda509</color>
+    <color name="artists_color">#3d7c10</color>
+    <color name="albums_color">#168c7a</color>
+    <color name="songs_color">#2169ce</color>
+    <color name="download_music_color">#66158c</color>
+
+    <!--[Song Playing Now Activity]-->
+    <color name="colorSongPlayingNowBar">#BBDEFB</color>
+
+    <!--Background Color-->
+    <color name="colorSongPlayingNowBackground">#0D47A1</color>
+    <color name="colorSongPlayingNowIcon">#E3F2FD</color>
+    <color name="colorSongPlayingNowPrimary">#E3F2FD</color>
+</resources>
