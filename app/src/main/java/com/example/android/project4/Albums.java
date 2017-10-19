@@ -7,10 +7,10 @@ import android.support.v7.app.AppCompatActivity;
  * Created by ningyang on 10/19/17.
  */
 
-public class DownloadMusic extends AppCompatActivity {
+public class Albums extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.download_music);
+        setContentView(R.layout.albums);
     }
 }

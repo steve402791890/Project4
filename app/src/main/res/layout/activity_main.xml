@@ -292,7 +292,7 @@
 
     <!--Song Playing Now Bottom Bar-->
     <RelativeLayout
-        android:id="@+id/main_activity_song_playing_now"
+        android:id="@+id/playing_music"
         style="@style/song_playing_now_bottom_bar">
         <!--song cover-->
         <ImageView
